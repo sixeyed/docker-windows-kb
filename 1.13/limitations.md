@@ -7,7 +7,8 @@ These are the known limitations running on Windows.
 ## Engine
 
 - [Swarm initialization needs IP addresses specified](limitations/engine/swarm-init-needs-ip.md)
-
+- No Docker-in-Docker
+- Secrets not available
 
 ## Volumes
 
