@@ -23,7 +23,7 @@ These are the known limitations running on Windows.
 ## Network
 
 - Published Ports On Windows Containers Don't Do Loopback
-- Exposed Ports aren't reachable with a manual firewall exception
+- Exposed Ports aren't reachable without a manual firewall exception
 
 ## Docker Compose
 
