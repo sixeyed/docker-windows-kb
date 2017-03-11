@@ -8,6 +8,7 @@ These are the known limitations running on Windows.
 
 - No Docker-in-Docker
 - Windows Server containers can't be paused
+- Windows containers can't be committed to an image while running
 
 ## Swarm mode
 
@@ -19,6 +20,10 @@ These are the known limitations running on Windows.
 - [Driver options are not supported for local volumes](limitations/volumes/driver-opts-not-supported.md)
 - Some app platforms cannot access mounted volumes in the container
 
+## Network
+
+- Published Ports On Windows Containers Don't Do Loopback
+- Exposed Ports aren't reachable with a manual firewall exception
 
 ## Docker Compose
 
