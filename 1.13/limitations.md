@@ -13,6 +13,7 @@ These are the known limitations running on Windows.
 
 - [Swarm initialization needs IP addresses specified](limitations/engine/swarm-init-needs-ip.md)
 - Secrets not available
+- Services need to run with `--endpoint-mode=dnsrr`
 
 ## Volumes
 
